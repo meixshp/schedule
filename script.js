@@ -1,8 +1,8 @@
 function main() {
     var monday = ["Deep Learning of AI"];
-    var tuesday = ["Programming Languages", "Intelligent Systems", "Futurology in Industrial Design"];
+    var tuesday = ["Programming Languages", "Intelligent Systems", "Concept Design for the Future"];
     var thursday = ["Deep Learning of AI", "A Hard Look at the movies"];
-    var friday = ["A Hard Look at the Movies", "Programming Languages", "Intelligent Systems", "Futurology in Industrial Design"];
+    var friday = ["A Hard Look at the Movies", "Programming Languages", "Intelligent Systems", "Concept Design for the Future"];
 
     var weekDay = new Date().getDay();
 
