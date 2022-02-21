@@ -11,12 +11,16 @@ function main() {
             switch (weekDay) {
                 case 1:
                     checkSchedule(monday, weekDay);
+                    break;
                 case 2:
                     checkSchedule(tuesday, weekDay);
+                    break;
                 case 4:
                     checkSchedule(thursday, weekDay);
+                    break;
                 case 5:
                     checkSchedule(friday, weekDay);
+                    break;
             }
         } else {
             console.log("mittwoch");
@@ -29,6 +33,7 @@ function main() {
 function checkSchedule(array, weekDay) {
     var today = new Date();
     var now = today.getHours() * 60 + today.getMinutes();
+    console.log(array, weekDay);
 
     var startFirstClass = 18 * 60 + 35;
     var endFirstClass = 29 * 60 + 55;
