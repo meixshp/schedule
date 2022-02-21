@@ -45,22 +45,22 @@ function checkSchedule(array, weekDay) {
     var endFourthClass = 3 * 60 + 55;
 
     if (startFirstClass <= now && now <= endFirstClass) {
-        manipulateBanner(array, 0)
+        manipulateBanner(array, 0);
     }
 
     if (startSecondClass <= now && now <= endSecondClass) {
         if (weekDay > 1)
-            manipulateBanner(array, 1)
+            manipulateBanner(array, 1);
     }
 
     if (startThirdClass <= now && now <= endThirdClass) {
         if (weekDay == 2 || weekDay == 4)
-            manipulateBanner(array, 2)
+            manipulateBanner(array, 2);
     }
 
     if (startFourthClass <= now && now <= endFourthClass) {
         if (weekDay == 4)
-            manipulateBanner(array, 0)
+            manipulateBanner(array, 0);
     }
 }
 
