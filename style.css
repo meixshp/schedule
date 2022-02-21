@@ -1,0 +1,70 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+}
+
+#content {
+   width: 700px;
+   background-color: white;
+}   
+
+.header {
+   background-image: linear-gradient(to bottom left, rgba(173, 86, 86, 0.712), rgba(126, 149, 214, 0.671));
+   height: 200px;
+   margin-top: 30%;
+   border-radius: 15px;
+}
+
+nav {
+    background-color: rgb(206, 223, 215);
+}
+
+nav a { 
+    font-style: italic;
+    font-size: 50px;
+    text-decoration: none;
+    color: grey;
+}
+
+
+.calendar {
+    margin-top: 10px;
+}
+
+th {
+    text-align: center !important;
+    
+}
+
+td {
+    width: 20%;
+}
+
+.dl {
+    background-color: rgb(238, 254, 255) !important;
+}
+
+.pl {
+    background-color: rgb(233, 255, 241) !important;
+}
+
+.is {
+    background-color: rgb(246, 244, 255) !important;
+}
+
+.cd {
+    background-color: rgb(253, 237, 251) !important;
+}
+
+.hm {
+    background-color: rgb(255, 254, 234) !important;
+}
+
+.empty {
+    visibility: hidden;
+}
+
+.notices {
+    background-color: green;
+    margin-top: 20px;
+}

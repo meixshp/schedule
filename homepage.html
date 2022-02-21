@@ -4,26 +4,191 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
-    <title>for daniel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>may's uni schedule</title>
 </head>
 
 <body>
-    <div id="content">
+
+    <main>
+        <nav class="navbar navbar-light">
+            <a class="navbar-brand" href="#">
+                may's schedule
+            </a>
+            <button type="button" class="button btn btn-sm btn-outline-secondary"
+                onClick="alert('i like u a lot'); return true"> click </button>
+        </nav>
+        <div id="7">
 
 
-        <div id="header">
-            <h1>
-                <a href="next.html">happy valentine's day</a> 
-            </h1>
+
         </div>
 
-        <div>
-            <button type="button" id="swipe" onClick="alert('i like u a lot'); return true"> click </button>
+        <div class="container">
+            <div class="row">
+                <div id="banner" class="col-12 notices alert alert-info" role="alert">
+                    A simple info alert—check it out!
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 calendar bg-light rounded">
+                    <table class="table table-borderless">
+                        <tr>
+                            <th>
+                                <h4>Montag</h4>
+                            </th>
+                            <th>
+                                <h4>Tuesday</h4>
+                            </th>
+                            <th>
+                                <h4>Mittwoch</h4>
+                            </th>
+                            <th>
+                                <h4>Thursday</h4>
+                            </th>
+                            <th>
+                                <h4>Freitag</h4>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card dl">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Deep Learning of AI</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Online</h6>
+                                        <p class="card-text">Time: 11:35 - 12:55 <br /> &rarr; 18:35 - 19:55</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card pl">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Programming Languages</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">On Campus</h6>
+                                        <p class="card-text">Time: 11:35 - 12:55 <br /> &rarr; 18:35 - 19:55</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card empty">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Placeholder</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card dl">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Deep Learning of AI</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Online</h6>
+                                        <p class="card-text">Time: 11:35 - 12:55 <br /> &rarr; 18:35 - 19:55</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card pl">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Programming Languages</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">On Campus</h6>
+                                        <p class="card-text">Time: 11:35 - 12:55 <br /> &rarr; 18:35 - 19:55</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+
+                            </td>
+                            <td>
+                                <div class="card is">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Intelligent Systems</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Online</h6>
+                                        <p class="card-text">Time: 13:05 - 14:25 <br /> &rarr; 20:05 - 21:25</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                                <div class="card is">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Intelligent Systems</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Online</h6>
+                                        <p class="card-text">Time: 13:05 - 14:25 <br /> &rarr; 20:05 - 21:25</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </td>
+                            <td>
+                                <div class="card cd">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Concept Design for the Future</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Online</h6>
+                                        <p class="card-text">Time: 15:05 - 16:25 <br /> &rarr; 22:05 - 23:25</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                                <div class="card cd">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Concept Design for the Future</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Online</h6>
+                                        <p class="card-text">Time: 15:05 - 16:25 <br /> &rarr; 22:05 - 23:25</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                                <div class="card hm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">A hard look on the Movies</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">On Campus</h6>
+                                        <p class="card-text">Time: 18:05 - 20:55 <br /> &rarr; 01:05 - 03:55</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
         </div>
-
-
-    </div>
+    </main>
 </body>
 
 </html>
