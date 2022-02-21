@@ -36,7 +36,7 @@ function checkSchedule(array, weekDay) {
     console.log(array, weekDay);
 
     var startFirstClass = 18 * 60 + 35;
-    var endFirstClass = 29 * 60 + 55;
+    var endFirstClass = 19 * 60 + 55;
     var startSecondClass = 20 * 60 + 5;
     var endSecondClass = 21 * 60 + 25;
     var startThirdClass = 22 * 60 + 5;
